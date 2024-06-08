@@ -1,0 +1,28 @@
+/* Universal Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  outline: none;
+}
+/* Google fonts cdns */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap");
+/* Fonts */
+.raleway-medium {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+/* Root directory */
+:root {
+  --primary-color: #091124;
+  --transition-time: 0.5s;
+  --attribute-centre: center;
+}
+/* Utility Classes */
+.position-relative {
+  position: relative;
+}
